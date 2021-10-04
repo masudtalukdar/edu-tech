@@ -1,6 +1,6 @@
 # Welcome to EduTech
 
-This Project Based On react js [Click here for LIve Site Link](https://dreamedu-cn.web.app/).
+This Project Based On react js [Click here for LIve Site Link](https://edu-t-ech.netlify.app/).
 
 [Linkedin](https://www.linkedin.com/in/masudtalukdar/).
 
