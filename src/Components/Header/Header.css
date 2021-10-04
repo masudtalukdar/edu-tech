@@ -1,0 +1,47 @@
+.header-bg {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 500px;
+  background-image: url(./Image/bg.jpg);
+}
+.mini_logo {
+  display: none;
+}
+
+li.nav-item {
+  margin: auto;
+}
+li.nav-item a {
+  font-size: 30px;
+}
+nav {
+  padding: 20px;
+}
+nav a {
+  padding: 15px;
+  margin-right: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  color: rgb(255 255 255);
+  font-size: 19px;
+  align-items: center;
+}
+nav a:hover {
+  color: goldenrod;
+}
+@media (max-width: 740px) {
+  .header-bg {
+    height: auto;
+    background-image: url(./Image/bg.jpg);
+    display: block;
+  }
+  .mini_logo {
+    display: block;
+  }
+  .desktop-logo {
+    display: none;
+  }
+}

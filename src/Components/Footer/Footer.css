@@ -1,0 +1,21 @@
+.footer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: black;
+  height: 100%;
+}
+.footer img {
+  width: 40%;
+  margin-top: -80px;
+  margin-left: -900px;
+}
+input {
+  border-radius: 5px;
+  display: inline-grid;
+}
+.text-area {
+  padding: 15px;
+}

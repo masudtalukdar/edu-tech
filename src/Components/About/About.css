@@ -1,0 +1,50 @@
+.container {
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 20px;
+  color: rgb(205, 66, 54);
+}
+h3 {
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+}
+p {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 20px;
+  color: rgb(111, 129, 151);
+  font-style: normal;
+}
+.secImg img {
+  margin: 0;
+  padding: 0;
+}
+.about-title li {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 20px;
+  color: rgb(111, 129, 151);
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+
+@media (max-width: 740px) {
+  .container img {
+    display: none;
+    /* display: block; */
+  }
+  .con-info {
+    /* display: none; */
+  }
+}
