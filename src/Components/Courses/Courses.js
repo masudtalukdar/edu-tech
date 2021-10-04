@@ -15,7 +15,6 @@ const Courses = () => {
           <div className='card col-3'>
             <img className='img-fluid' src={course.thumbnail} alt='' />
             <div className=' card-body'>
-              key={course.id}
               <h5 className='card-title'> {course.title}</h5>
               <p className='card-text text-white'>{course.short_description}</p>
               <h6 className='price'>
